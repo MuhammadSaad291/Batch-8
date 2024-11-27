@@ -1,0 +1,24 @@
+img{
+     text-align: center;
+     padding: 40px 500px ;
+    background-color:rgba(0, 0, 0, 0.993) ; 
+}
+
+body{
+    background-color: black;
+}
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 30px 20px 30px 20px;
+    margin: 10%;
+}
+p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 30px 20px 30px 20px;
+    margin: 10%;
+}
+
+
+

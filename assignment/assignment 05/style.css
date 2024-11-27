@@ -1,0 +1,491 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.webfront{
+    /* background-color: rgb(57, 57, 119); */
+    background: linear-gradient(100.72deg, #122E99 -12.83%, #2370C8 104.22%);
+
+    height: 100vh;
+
+}
+#container{
+    /* border: 2px solid red; */
+    color: aliceblue;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.para2{
+    width: 40%;
+}
+.para2 ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.para2 ul li{
+    list-style-type: none;
+}
+.para3 input{
+    height: 20px;
+    width: 200px;
+    border-radius: 50px;
+    padding: 20px;
+}
+.para3 img{
+    position: relative;
+    top: -2px;
+    left: -40px;
+}
+
+/* color: aliceblue;
+ */
+
+ .hero{
+    color: white;
+    width: 40%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height:600px;
+    margin-left: 100px;
+ }
+ .hero h1{
+    padding: 20px;
+    /* line-height: 40px; */
+    font-size: 60px;
+ }
+ .hero p{
+    padding: 20px;
+ }
+ .hero button{
+    margin-left: 20px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(63, 63, 255);
+    border: none;
+ }
+
+ /* ------------------ */
+
+
+ .secondsection{
+    /* background-color: aqua; */
+    height: 100vh;
+    padding: 30px;
+ }
+ .secondheading{
+    font-size: 40px;
+    text-align: center;
+ }
+ .secondpara{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+ }
+ .secondparatext{
+    width:60%;
+    text-align: end;
+    font-size: 30px;
+    font-weight: 500;
+    /* border: 2px solid red; */
+ }
+.secondparaicon{
+    width: 20%;
+    /* border: 2px solid red; */
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start; */
+}
+
+/* .secondparaicon2{
+    width: 80%;
+    display: flex;
+    border: 2px solid red;
+    align-items: flex-start;
+} */
+
+
+.secondcard{
+    display: flex;
+    justify-content: center;
+}
+
+.secondcard1{
+    width: 300px;
+    /* height: 300px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin: 20px;
+    /* background-color: rgb(177, 175, 175); */
+}
+
+.cardimage{
+    padding: 10px;
+}
+.cardimage img{
+    width: 100px;
+}
+.cardhead{
+    padding: 5px;
+}
+.cardpara{
+    padding: 5px;
+    text-align: center;
+}
+.card23{
+    background-color: #E5F3FE;
+    border: 3px solid #CFEAFF;
+}
+
+/* ------------------------------------ */
+
+.section3{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.section3left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.section3left img{
+    width: 400px;
+    /* width: 50%; */
+}
+.section3right{
+    /* border:2px solid #2370C8; */
+    width: 30%;
+    height: 330px;
+}
+.section3righthead{
+    padding: 10px 0px;
+}
+.section3rightheadingtext{
+    padding: 10px 0px;
+}
+.section3rightpara p{
+    padding: 10px 0px;
+}
+.section3rightbtn{
+    padding: 10px 0px;
+}
+.section3rightbtn button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(63, 63, 255);
+    border: none;
+}
+
+.scetion4inner{
+    height: 400px;
+    /* border: 2px solid red; */
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F9FF;
+    
+}
+.section4wholecard{
+    border: 2px solid rgb(255, 255, 255);
+    display: flex;
+}
+.card4{
+    border: none;
+}
+.section5{
+    /* height: 100vh; */
+    padding: 80px;
+}
+
+.section5heading{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.sction5headingleft{
+    font-size: 23px;
+}
+
+.sction5headingright{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sction5headingrighttext{
+    color: blue;
+    margin:0px 3px;
+}
+.sction5headingrighticon img{
+    width: 45px;
+    margin: 0px 3px;
+}
+.sction5headinglefttext{
+    margin:0px 5px;
+}
+
+
+
+.sectioncard5{
+    border: none;
+    box-shadow: 1px 1px 5px rgb(105, 182, 226);
+}
+.section5card{
+    display: flex;
+    justify-content: center;
+}
+.sectioning5{
+    background-color: #2370C8;
+    color: white;
+}
+.btn5 button{
+    background-color: white;
+    color: #2370C8;
+}
+
+.cardhead span{
+    color: #2370C8;
+    font-size: 25px;
+}
+.card5th span{
+    color: white;
+}
+             /* --------------------------------------- */
+.section6{
+    /* background: #3782D7E5; */
+    color: white;
+    /* height: 400px; */
+
+}
+.section6heading{
+    text-align: center;
+    margin: 90px 0px;
+    /* padding: 80px; */
+    align-items: center;
+
+}
+.section6card{
+    display: flex;
+    justify-content: center;
+}
+
+.section6inner{
+    background: #3782D7E5;
+}
+
+/* ----------------------------------------------------------- */
+.firstcard1{
+    /* border:2px solid red; */
+    padding: 20px 3px;
+}
+.bg1{
+    color: #2370C8;
+}
+.section7 {
+    padding: 200px;
+    height: 700px;
+}
+
+
+#posted-card{
+    background-color: #3782D7;
+    color: white;
+    text-align: left;
+}
+.bg4 input{
+    width:250px;
+    margin: 0px;
+    border: 2px solid #2370C8;
+}
+
+.bg4 img{
+    border: 2px solid #2370C8;
+    background-color: #2370C8;
+    width: 30px;
+    height: 27px;
+    position: relative;
+    left: -5px;
+    top: -2px;
+
+}
+.thirdcard1{
+    border: 2px solid #2370C8;
+    height: 360px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+<div class="circle">
+        
+    </div> */
+/* .circle{
+    margin-left: 300px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+     background-color: blue; 
+} */

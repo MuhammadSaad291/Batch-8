@@ -1,0 +1,43 @@
+.para1{
+     color: lightgreen;
+    background-color: lavenderblush; 
+}
+
+table{
+     margin: auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 50%;
+}
+th{
+    border: 2px solid green;
+   background:  rgb(235, 182, 85);
+   border-collapse: collapse;
+   padding:10px;
+}
+td{
+    border: 2px solid green;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10PX;
+    background-color: lightgreen;
+    
+}
+h2{
+margin: auto;
+width: 50%;
+text-align: center;
+}
+#name{
+    background-color: maroon;
+    color: azure;
+
+}
+.formdiv{
+background-color: brown;
+width: 20%;
+margin: auto;
+padding: 20px;
+border-radius: 5px;
+font-size: 22px;
+}
