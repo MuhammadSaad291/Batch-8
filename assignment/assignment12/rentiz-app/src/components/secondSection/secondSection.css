@@ -1,0 +1,43 @@
+.firstcontainer{
+    background-image: url('../../assets/Converted.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(38, 36, 53);
+    height: 550px;
+}
+.circle{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid rgb(102, 102, 102);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionbox{
+    /* border: 2px solid rgb(173, 77, 77); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 20px;
+    color: antiquewhite;
+}
+.head{
+    color: white;
+    padding: 30px 0px 0px 200px;
+}
+.sectionbtn{
+    text-align: center;
+
+}
+
+.sectionbtn button{
+    text-align: center;
+    padding: 15px 30px;
+    background-color: rgb(80, 180, 122);
+    border: none;
+    color: white;
+
+}

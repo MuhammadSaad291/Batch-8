@@ -1,0 +1,43 @@
+.thirdsection{
+   height: 100vh;
+}
+
+.imagecard{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.section3left{
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    padding-left: 100px;
+    background-color:#1A242F;
+    height: 900px;
+}
+.section3right{
+    width: 30%;
+    height: 330px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 190px 20px 50px 90px;
+}
+.section3rightheadingtext{
+    padding: 40px 0px;
+}
+.section3rightpara p{
+    padding: 40px 0px;
+}
+.section3rightbtn{
+    padding: 10px 0px;
+}
+.section3rightbtn button{
+    padding: 20px 80px;
+    background-color: rgb(80, 180, 122);
+    border: none;
+    color: white;
+}
+
+

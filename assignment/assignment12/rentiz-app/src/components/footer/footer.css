@@ -1,0 +1,24 @@
+.lastfootersection {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 90px 100px;
+    background-color:#1A242F;
+}
+
+.footer1 ul  {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.footericon{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 200px 0px 0px;
+    font-size: 30px;
+}
+.footer1 ul li{
+color: #6d7379;
+padding: 3px 0px;
+}

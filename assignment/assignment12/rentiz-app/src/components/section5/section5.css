@@ -1,0 +1,24 @@
+.forthcontainer{
+    /* height:300px; */
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 190px 80px;
+background-color: #121B25;    
+}
+.section5card1{
+    width: 30%;
+}
+.section5card2{
+    width: 40%;
+}
+.section5right{
+    padding: 20px 0px;
+}
+.section5right button{
+    padding: 20px 80px;
+    background-color: rgb(80, 180, 122);
+    border: none;
+    color: white;
+}

@@ -2,69 +2,65 @@
 // ---------------------1-----------------------
 // // Function to print natural numbers from 1 to n
 // function printNaturalNumbers(n) {
-//     let i = 1; // Initialize the counter
+//     let i = 1; 
 //     while (i <= n) {
-//         console.log(i); // Print the current number
-//         i++; // Increment the counter
+//         console.log(i);
+//         i++; 
 //     }
 // }
-
-// // Example usage
-// const n = 10; // Change this value to your desired upper limit
+// let n = 10; 
 // printNaturalNumbers(n);
 
 // -----------------------2------------------------
 // // Function to print  natural numbers from n to 1
 // function printNaturalNumbersReverse(n) {
-//     let i = n; // Initialize the counter to n
+//     let i = n; 
 //     while (i>=1) {
-//         console.log(i); // Print the current number 
-//         i--; // decrement the counter
+//         console.log(i);  
+//         i--; 
 //     }
 // }
-
-// // Example usage
-// const n = 10; // Change this value to your desired upper limit
+// const n = 10; 
 // printNaturalNumbersReverse(n);
 
 // -----------------------3---------------------
 // // Function to print all alphabets from a to z
-// function printAlphabets() {
-//     let charCode = 97; // ASCII code for 'a'
-//     while (charCode <= 122) { // ASCII code for 'z'
-//         console.log(String.fromCharCode(charCode)); // Convert charCode to character and print
-//         charCode++; // Move to the next character
+// function printAlphabets(charCode) {
+//     while (charCode <= 122) { 
+//         let char = String.fromCharCode(charCode);
+//         console.log(char); 
+//         charCode++; 
 //     }
 // }
 
-// // Call the function
-// printAlphabets();
+// let charCode = 97; 
+// printAlphabets(charCode);
 
 // -----------------------4------------------------
 // // Function to print all even numbers between 1 and 100
-// function printEvenNumbers() {
-//     let number = 2; // Start with the first even number
+
+// function printEvenNumbers(number) {
 //     while (number <= 100) {
-//         console.log(number); // Print the current number
-//         number += 2; // Increment by 2 to get the next even number
+//         console.log(number); 
+//         number += 2; 
 //     }
 // }
-
-// // Call the function
-// printEvenNumbers();
+// let number = 2; 
+// printEvenNumbers(number);
 
 // ------------------------5---------------------------
 // // Function to print all odd numbers between 1 and 100
-// function printOddNumbers() {
-//     let number = 1; // Start with the first odd number
-//     while (number <= 100) {
-//         console.log(number); // Print the current number
-//         number += 2; // Increment by 2 to get the next odd number
+// function printOddNumbers(number) {
+//     let n=number
+//     while (n <= 100) {
+//         console.log(n); // Print the current number
+//         n += 2; // Increment by 2 to get the next odd number
 //     }
 // }
 
 // // Call the function
-// printOddNumbers();
+// let number = 1; // Start with the first odd number
+// printOddNumbers(number);
 
 // -------------------------6----------------------------
 // // Function to find the sum of all natural numbers between 1 and n
@@ -126,10 +122,10 @@
 // }
 
 // // Example usage
-// const number = 12345; // Change this value to the number you want to count digits of
+// const number = 12356; // Change this value to the number you want to count digits of
 // console.log(`The number of digits in ${number} is: ${countDigits(number)}`);
 
-// --------------------------10--------------------------
+// // --------------------------10--------------------------
 // // Function to print the multiplication table of a given number
 // function printMultiplicationTable(num) {
 //     let i = 1;
@@ -293,7 +289,7 @@
 //     }
 // }
 
-// // Example usage
+// // // Example usage
 // let number = prompt("Enter a number: "); // Ask user for input
 // number = parseInt(number); // Convert input to an integer
 

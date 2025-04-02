@@ -1,0 +1,33 @@
+/* .container1 {
+    display: flex;
+    justify-content: center-between;
+    padding: 30px 100px;
+    color: white;
+    flex-direction: column;
+}
+.point1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+    /* border: 2px solid black; */
+    /* color: white; */
+/* }  */
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px 100px;
+}
+
+.point1 h2{
+    color: white;
+    padding:0px 30px;
+}
+.point2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
