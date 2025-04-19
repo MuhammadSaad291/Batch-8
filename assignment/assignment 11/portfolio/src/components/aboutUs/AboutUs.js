@@ -103,12 +103,14 @@ export default function AboutUs() {
 
           <ul class="testimonials-list has-scrollbar">
             {TESTIMONIAL_DATA?.map((item, index) => {
-              <TestimonialCard
-                key={index}
-                image={item.image}
-                title={item.title}
-                desc={item.desc}
-              />;
+              return (
+                <TestimonialCard
+                  key={index}
+                  image={item.image}
+                  title={item.title}
+                  desc={item.desc}
+                />
+              );
             })}
           </ul>
         </section>
