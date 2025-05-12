@@ -9,7 +9,6 @@ import { BsBell } from "react-icons/bs";
 import { FaPlus } from "react-icons/fa6";
 import { FaFacebookMessenger } from "react-icons/fa6";
 import { FaRegBell } from "react-icons/fa";
-import { FaCaretDown } from "react-icons/fa";
 import unsplash from "../../assets/unsplash.jpg"
 function Navbar() {
   return (
@@ -31,7 +30,7 @@ function Navbar() {
         {/* div no 2 */}
         <div className="flex gap-16">
           <div>
-            <TiHome size={40} className='text-blue-500'/>
+            <TiHome size={40} className='text-blue-500 '/>
           </div>
           <div>
             <CiShop size={40} className="text-gray-500"/>
@@ -48,11 +47,11 @@ function Navbar() {
         </div>
         {/* div no 3 */}
         <div className="flex justify-between gap-12">
-          <div className="flex gap-5"><img src={unsplash} alt="" className="rounded-full  w-10 h-10 " /><span>Saad</span></div>
-          <div className="border p-2 rounded-full bg-black flex items-center justify-center"><FaPlus color="white" size={20}/></div>
-          <div className="border p-2 rounded-full bg-black"><FaFacebookMessenger size={20} color="white"/></div>
-          <div className="border p-2 rounded-full bg-black"><FaRegBell size={20} color="white"/></div>
-          <div className="border p-2 rounded-full bg-black"><FaCaretDown size={20} color="white"/></div>
+ 
+          <div className="border p-2 rounded-full text-black flex items-center justify-center"><FaPlus color="gray" size={20}/></div>
+          <div className="border p-2 rounded-full text-black"><FaFacebookMessenger size={20} color=""/></div>
+          <div className="border p-2 rounded-full text-black"><FaRegBell size={20} color=""/></div>
+          <div className="flex gap-5"><img src={unsplash} alt="" className="rounded-full  w-10 h-10 " /></div>
         </div>
       </div>
     </>
